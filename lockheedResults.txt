@@ -1,0 +1,103 @@
+Aircraft data structure
+
+aircraft = 
+
+  struct with fields:
+
+                 aircraftName: 'Lockheed Orion'
+              flightCondition: 'cruise'
+                         type: 1
+                            V: 168.7378
+                            h: 7620
+                            m: 6.1235e+04
+                            g: 9.8066
+                            W: 6.0051e+05
+                           Sw: 120.7700
+                           bw: 30.3700
+                           cw: 4.2600
+                           Aw: 7.6371
+              wingRootAirfoil: 'NACA 0014-1.10 40/1.051'
+               wingTipAirfoil: 'NACA 0012-1.10 40/1.051'
+                      lambdaw: 0.4000
+                    Lambdac4w: 0.0567
+                        Gamaw: 0.0873
+              geometricTwistw: -0.0436
+                         xACw: 14.8300
+                      alpha0w: 0.0524
+                           St: 29.9000
+                           bt: 13.0600
+                           ct: 2.5000
+                           At: 5.7045
+    horizontalTailRootAirfoil: 'NACA 23011 (inverted)'
+    horizontalTailTipAirfoill: 'NACA 23011 (inverted)'
+                      lambdat: 0.3250
+                    Lambdac4t: 0.1115
+                        Gamat: 0.1484
+              geometricTwistt: 0
+                         xACt: 29.4900
+                      alpha0t: 0.0262
+                        CDwb0: 0.0020
+                        Cmwb0: -0.0106
+                          ewb: 0.9879
+                    CLwbalpha: 4.9323
+                    alphaL0wb: -0.0436
+                         CDt0: 4.6568e-04
+                         Cmt0: -0.3175
+                           et: 0.9916
+                     CLtalpha: 4.6125
+                     alphaL0t: -0.0184
+                     epsilone: 0.9987
+                    Cmtdeltae: -0.5989
+                           Kd: 2.3723
+                         etat: 1.0001
+                          xCG: 14.6200
+                           lw: 0.2100
+                           lt: 14.8700
+                    epsilond0: 0.1471
+                epsilondalpha: 1.5321
+                          CL0: 0.3565
+                      CLalpha: 4.3246
+                         CLih: 0
+                     CLdeltae: 1.1406
+                          Cm0: 0.3283
+                      Cmalpha: 1.8779
+                         Cmih: 0
+                     Cmdeltae: -4.0684
+                           SM: -0.4342
+                          lnp: -1.8499
+                          xnp: 12.7701
+                        SMmin: 0.1000
+                       xCGmin: 2.0815
+                        SMmax: 2.5091
+                       xCGmax: 12.3441
+                    ihtrimmin: -0.0349
+                deltaetrimmin: -0.0698
+
+ 
+Results for Lockheed Orion aircraft at cruise
+ Static margin
+  SM = -43.4%
+    for xCG = 47.9659 ft = 14.62 m
+ 
+ CG limits
+  xCGmin = 6.829 ft = 2.0815 m
+    for deltaetrimmin = -4.00 deg
+    with SMmax = 250.91%
+  xCGmax = 40.4991 ft = 12.3441 m
+    for SMmin = 10.00%
+ 
+Trim conditions
+  V = 328.0 kn = 168.7 m/s
+  h = 25000 ft = 7620 m
+  Vvert = 0 ft/min = 0 m/s
+  W = 134999.9884 lbf = 61235.0 kgf
+  xCG = 47.9659 ft = 14.62 m
+  alphatrim = 2.22 deg = 0.038704 rad
+  deltaetrim = 5.65 deg = 0.098562 rad
+  thrustRequired = 4428.0155 lbf = 2008.5 kgf
+  CLtrim = 0.6363
+  CDtrim = 0.0209
+  CLwbtrim = 0.6644
+  CLttrim = -0.1135
+  CDwbtrim = 0.0206
+  CDttrim = 0.0012
